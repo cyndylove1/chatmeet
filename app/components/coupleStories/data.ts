@@ -28,12 +28,12 @@ export const couples: Couple[] = [
     id: 2,
     name: "Daniel & Favour",
     location: "Berlin, Germany",
-    mainImage: "/images/couple 7.png",
+    mainImage: "/images/couple 7.PNG",
     thumbnails: [
-      "/images/couple 6.png",
-      "/images/couple 7.png",
-      "/images/couple 8.png",
-      "/images/couple 9.png",
+      "/images/couple 6.PNG",
+      "/images/couple 7.PNG",
+      "/images/couple 8.PNG",
+      "/images/couple 9.PNG",
     ],
     story:
       "Daniel and Favour connected over music and travel. Their shared passions brought them closer, turning everyday conversations into something special.",
@@ -44,10 +44,10 @@ export const couples: Couple[] = [
     location: "Toronto, Canada",
     mainImage: "/images/couple 8.png",
     thumbnails: [
-      "/images/couple 6.png",
-      "/images/couple 7.png",
-      "/images/couple 8.png",
-      "/images/couple 9.png",
+      "/images/couple 6.PNG",
+      "/images/couple 7.PNG",
+      "/images/couple 8.PNG",
+      "/images/couple 9.PNG",
     ],
     story:
       "Liam and Noor met during a virtual community event and quickly bonded over late-night conversations and shared ambitions. Their connection grew naturally, grounded in honesty and mutual support.",
@@ -58,10 +58,10 @@ export const couples: Couple[] = [
     location: "Lisbon, Portugal",
     mainImage: "/images/couple 9.png",
     thumbnails: [
-      "/images/couple 6.png",
-      "/images/couple 7.png",
-      "/images/couple 8.png",
-      "/images/couple 9.png",
+      "/images/couple 6.PNG",
+      "/images/couple 7.PNG",
+      "/images/couple 8.PNG",
+      "/images/couple 9.PNG",
     ],
     story:
       "Andre and Sofia crossed paths through a mutual friend and discovered a shared love for culture and creativity. What began as casual conversations soon evolved into a meaningful and lasting connection.",
