@@ -14,12 +14,12 @@ export const couples: Couple[] = [
     id: 1,
     name: "Joshua & Martha",
     location: "Ukraine, Kyiv",
-    mainImage: "/images/couple 6.png",
+    mainImage: "/images/couple 6.PNG",
     thumbnails: [
-      "/images/couple 6.png",
-      "/images/couple 7.png",
-      "/images/couple 8.png",
-      "/images/couple 9.png",
+      "/images/couple 6.PNG",
+      "/images/couple 7.PNG",
+      "/images/couple 8.PNG",
+      "/images/couple 9.PNG",
     ],
     story:
       "Joshua and Martha met through shared values and meaningful conversations. What started as a simple chat turned into a strong connection built on trust and respect.",
