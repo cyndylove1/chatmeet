@@ -1,6 +1,5 @@
 interface LabelProps {
   text?: string;
-  hideIcon?: boolean;
   className?: string;
 }
 export default function Label({ text, className }: LabelProps) {

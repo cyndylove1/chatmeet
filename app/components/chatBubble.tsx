@@ -1,5 +1,5 @@
 import { AnimatedItem } from "./animatedItem";
-import woman from "@/public/images/finewoman.png"
+
 
 export default function ChatBubble() {
   return (

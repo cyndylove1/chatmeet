@@ -1,22 +1,25 @@
 "use client";
+import { useState } from "react";
 import Link from "next/link";
 import Button from "../components/button";
-import Cover from "../components/cover";
 import Logo from "../components/logo";
 import Label from "../components/label";
 import Input from "../components/input";
 import InputPassword from "../components/inputPassword";
-import { useState } from "react";
+
 
 export default function SignUp() {
   const [show, setShow] = useState(false);
   return (
     <section>
-      <div className="grid md:grid-cols-2 merriWeather">
-        <div className="signUp-bg hidden md:flex"></div>
+      <div className="grid lg:grid-cols-2 merriWeather bg-white">
+        <div className="signUp-bg hidden lg:flex"></div>
         <div className="md:p-10 px-4 leading-[100%]">
           {/* logo */}
-          <Logo />
+          <div className="pt-10">
+            <Logo />
+          </div>
+          {/* sign up title */}
           <h2 className="font-[500] pt-10 text-[32px]">Sign up with us</h2>
           <p className="font-[300] py-3 text-[16px] text-black">
             Already have an account?{" "}

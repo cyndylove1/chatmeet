@@ -15,13 +15,13 @@ export default function Chat() {
               <h2 className="text-3xl text-black font-[600]">
                 Ready to chat now?
               </h2>
-              <p className="text-[14px] text-center py-2 leading-[30px] font-[300]">
+              <p className="text-[14px] text-center py-2 leading-[30px] font-[300] text-black">
                 There’s no need to wait for a match.
               </p>
             </AnimatedItem>
 
             <AnimatedItem index={1} delay={0.1}>
-              <p className="text-center text-[16px] leading-[30px] font-[300] md:px-2">
+              <p className="text-center text-[16px] leading-[30px] font-[300] md:px-2 text-black">
                 Dive into the chats that go a little deeper, and get straight to
                 the good stuff. You know, the bit where you really get to know
                 each other.

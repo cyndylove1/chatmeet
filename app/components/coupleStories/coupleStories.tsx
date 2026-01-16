@@ -14,7 +14,7 @@ export default function CoupleStories() {
 
   const activeCouple = couples[coupleIndex];
 
-  // ============ Arrow Handlers ============
+  //Arrow Handlers
   const prevCouple = () => {
     const prevIndex = coupleIndex === 0 ? couples.length - 1 : coupleIndex - 1;
     setCoupleIndex(prevIndex);
@@ -28,7 +28,7 @@ export default function CoupleStories() {
   };
 
   return (
-    <section className="py-20 px-4 lg:px-20 merriWeather">
+    <section className="py-20 px-4 lg:px-20 merriWeather bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* LEFT CONTENT */}
         <div>

@@ -11,11 +11,14 @@ export default function Login() {
   const [show, setShow] = useState(false);
   return (
     <section>
-      <div className="grid grid-cols-2 merriWeather">
-        <div className="signUp-bg"></div>
+      <div className="grid lg:grid-cols-2 merriWeather bg-white">
+        <div className="signUp-bg hidden lg:flex"></div>
         <div className="md:p-10 px-4 leading-[100%]">
           {/* logo */}
-          <Logo />
+          <div className="pt-10">
+            <Logo />
+          </div>
+          {/* sign in title */}
           <h2 className="font-[500] pt-10 text-[32px]">Sign in with us</h2>
           <p className="font-[300] py-3 text-[16px] text-black">
             Don't have an account?{" "}

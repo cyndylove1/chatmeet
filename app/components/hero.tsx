@@ -1,6 +1,6 @@
+import { AnimatedItem } from "./animatedItem";
 import Link from "next/link";
 import Button from "./button";
-import { AnimatedItem } from "./animatedItem";
 
 export default function Hero() {
   return (
@@ -17,8 +17,7 @@ export default function Hero() {
           <AnimatedItem index={1} delay={0.1}>
             <p className="text-white mt-2 text-sm md:text-lg leading-[30px] font-[300]">
               A secure platform where real profiles, verified users <br /> and
-              meaningful conversations
-              come first.
+              meaningful conversations come first.
             </p>
           </AnimatedItem>
           <AnimatedItem index={2} delay={0.15}>
