@@ -18,7 +18,7 @@ const calligraffittiCode = Calligraffitti({
 
 export const metadata: Metadata = {
   title: "ChatMeet",
-  description: "ChatMeet is a dating Platform.",
+  description: "ChatMeet is a dating platform where you can meet and find real connections.",
 };
 
 export default function RootLayout({
