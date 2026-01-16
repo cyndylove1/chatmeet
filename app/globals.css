@@ -1,26 +1,66 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #362a2d;
+  --primary:#c55877;
+  
+}
+html{
+  scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.calligraffitti {
+  font-family: var(--font-calligraffitt)
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.merriWeather {
+  font-family: var(--font-merriWeather);
+  
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  
 }
+
+/* Hero background Image */
+.hero-bg {
+  background-image: url("../public/images/smiling.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+  position: relative;
+}
+
+/* Media query for small screens*/
+@media (max-width: 768px) {
+  .hero-bg {
+    background-position: center;
+  }
+}
+
+.signUp-bg {
+  background-image: url("../public/images/onlineMatch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  
+}
+
+/* dark gradient overlay */
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+
+
+

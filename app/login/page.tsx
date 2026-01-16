@@ -1,0 +1,58 @@
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import Button from "../components/button";
+import Logo from "../components/logo";
+import Label from "../components/label";
+import Input from "../components/input";
+import InputPassword from "../components/inputPassword";
+
+export default function Login() {
+  const [show, setShow] = useState(false);
+  return (
+    <section>
+      <div className="grid grid-cols-2 merriWeather">
+        <div className="signUp-bg"></div>
+        <div className="md:p-10 px-4 leading-[100%]">
+          {/* logo */}
+          <Logo />
+          <h2 className="font-[500] pt-10 text-[32px]">Sign in with us</h2>
+          <p className="font-[300] py-3 text-[16px] text-black">
+            Don't have an account?{" "}
+            <Link href="/sign-up">
+              <span className="leading-[25px] cursor-pointer font-[300] hover:text-[var(--primary)] text-black">
+                SignUp
+              </span>
+            </Link>
+          </p>
+          {/* sign in form */}
+          <form>
+            <div className="mt-[10px]">
+              <Label text="Email" />
+              <Input
+                type="text"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+            <div className="mt-[10px]">
+              <Label text="Password" />
+              <InputPassword
+                placeholder="Enter your Password"
+                showVisibility={show}
+                togglePasswordVisibility={() => setShow(!show)}
+              />
+            </div>
+
+            <div className="mt-[20px]">
+              <Button
+                text="Login"
+                className="w-full flex justify-center h-[40px] hover:text-white"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+}
