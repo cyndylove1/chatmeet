@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="lg:max-w-[60%] w-full">
           <AnimatedItem index={0} delay={0.05}>
             <h1 className="text-white text-[40px] lg:text-[55px] md:text-[60px] font-[600] leading-[50px]">
-              Dating Built on <br />
+              Dating Built On <br />
               <span className="text-[var(--primary)]">Trust.</span>
             </h1>
           </AnimatedItem>
