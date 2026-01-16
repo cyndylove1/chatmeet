@@ -16,13 +16,15 @@ export default function ChatBubble() {
               </div>
             </div>
             <div className="chat-header">
-              Obi-Wan Kenobi
-              <time className="text-xs opacity-50">12:45</time>
+              <h3 className="text-white">Obi-Wan Kenobi</h3>
+              <time className="text-xs opacity-50 text-gray-200">12:45</time>
             </div>
             <div className="chat-bubble bg-white font-[300] text-black">
               got plans tonight?
             </div>
-            <div className="chat-footer opacity-50">Delivered</div>
+            <div className="chat-footer opacity-50 text-gray-200">
+              Delivered
+            </div>
           </div>
         </AnimatedItem>
         <AnimatedItem index={1} delay={0.1}>
@@ -36,13 +38,15 @@ export default function ChatBubble() {
               </div>
             </div>
             <div className="chat-header">
-              Anakin
-              <time className="text-xs opacity-50">12:46</time>
+              <h3 className="text-white">Anakin</h3>
+              <time className="text-xs opacity-50 text-gray-200">12:46</time>
             </div>
             <div className="chat-bubble bg-white text-black font-[300]">
               Nope! What's up?
             </div>
-            <div className="chat-footer opacity-50">Seen at 12:46</div>
+            <div className="chat-footer opacity-50 text-gray-200">
+              Seen at 12:46
+            </div>
           </div>
         </AnimatedItem>
         <AnimatedItem index={2} delay={0.15}>
@@ -56,13 +60,15 @@ export default function ChatBubble() {
               </div>
             </div>
             <div className="chat-header">
-              Obi-Wan Kenobi
-              <time className="text-xs opacity-50">12:49</time>
+              <h3 className="text-white"> Obi-Wan Kenobi</h3>
+              <time className="text-xs opacity-50 text-gray-200">12:49</time>
             </div>
             <div className="chat-bubble bg-white text-black font-[300]">
               wanna come?
             </div>
-            <div className="chat-footer opacity-50">Delivered</div>
+            <div className="chat-footer opacity-50 text-gray-200">
+              Delivered
+            </div>
           </div>
         </AnimatedItem>
         <AnimatedItem index={3} delay={0.25}>
@@ -76,13 +82,15 @@ export default function ChatBubble() {
               </div>
             </div>
             <div className="chat-header">
-              Anakin
-              <time className="text-xs opacity-50">12:50</time>
+              <h3 className="text-white">Anakin</h3>
+              <time className="text-xs opacity-50 text-gray-200">12:50</time>
             </div>
             <div className="chat-bubble bg-white text-black font-[300]">
               Count me in!
             </div>
-            <div className="chat-footer opacity-50">Seen at 12:50</div>
+            <div className="chat-footer opacity-50 text-gray-200">
+              Seen at 12:50
+            </div>
           </div>
         </AnimatedItem>
         <AnimatedItem index={4} delay={0.35}>
@@ -96,13 +104,15 @@ export default function ChatBubble() {
               </div>
             </div>
             <div className="chat-header">
-              Obi-Wan Kenobi
-              <time className="text-xs opacity-50">12:51</time>
+              <h3 className="text-white">Obi-Wan Kenobi</h3>
+              <time className="text-xs opacity-50 text-gray-200">12:51</time>
             </div>
             <div className="chat-bubble bg-white text-black font-[300]">
               see ya there!
             </div>
-            <div className="chat-footer opacity-50">Delivered</div>
+            <div className="chat-footer opacity-50 text-gray-200">
+              Delivered
+            </div>
           </div>
         </AnimatedItem>
       </div>
