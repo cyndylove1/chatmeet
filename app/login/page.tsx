@@ -11,7 +11,7 @@ export default function Login() {
   const [show, setShow] = useState(false);
   return (
     <section>
-      <div className="grid lg:grid-cols-2 merriWeather bg-white">
+      <div className="grid lg:grid-cols-2 merriWeather bg-white h-full">
         <div className="signUp-bg hidden lg:flex"></div>
         <div className="md:p-10 px-4 leading-[100%]">
           {/* logo */}
@@ -19,7 +19,7 @@ export default function Login() {
             <Logo />
           </div>
           {/* sign in title */}
-          <h2 className="font-[500] pt-10 text-[32px]">Sign in with us</h2>
+          <h2 className="font-[500] pt-10 text-[32px] text-black">Sign in with us</h2>
           <p className="font-[300] py-3 text-[16px] text-black">
             Don't have an account?{" "}
             <Link href="/sign-up">
@@ -50,7 +50,7 @@ export default function Login() {
             <div className="mt-[20px]">
               <Button
                 text="Login"
-                className="w-full flex justify-center h-[40px] hover:text-white"
+                className="w-full flex justify-center h-[40px] text-black hover:text-white"
               />
             </div>
           </form>

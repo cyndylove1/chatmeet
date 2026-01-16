@@ -38,7 +38,7 @@ export default function CoupleStories() {
             </span>
           </AnimatedItem>
           <AnimatedItem index={1} delay={0.1}>
-            <h2 className="text-4xl font-bold mt-4 mb-6">
+            <h2 className="text-4xl font-bold mt-4 mb-6 text-black">
               {activeCouple.name}
             </h2>
           </AnimatedItem>
@@ -94,7 +94,7 @@ export default function CoupleStories() {
             {/* LEFT ARROW */}
             <button
               onClick={prevCouple}
-              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow hover:bg-white transition"
+              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-white transition"
               aria-label="Previous couple"
             >
               <ChevronLeft size={20} />
@@ -103,7 +103,7 @@ export default function CoupleStories() {
             {/* RIGHT ARROW */}
             <button
               onClick={nextCouple}
-              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow hover:bg-white transition"
+              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-white transition"
               aria-label="Next couple"
             >
               <ChevronRight size={20} />

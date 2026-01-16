@@ -2,23 +2,21 @@ import { EyeOff, Eye } from "lucide-react";
 
 interface InputPasswordProps {
   placeholder: string;
-  className?: string;
   showVisibility?: boolean;
   togglePasswordVisibility?: () => void;
 }
 
 export default function InputPassword({
   placeholder,
-  className,
   showVisibility = false,
   togglePasswordVisibility,
 }: InputPasswordProps) {
   return (
     <div>
       <div
-        className={`focus-within:border-[var(--primary)] h-[45px] flex mt-[5px] items-center rounded-[8px] border-[1px] 
+        className="focus-within:border-[var(--primary)] h-[45px] flex mt-[5px] items-center rounded-[8px] border-[1px] 
         border-gray-300
-        px-2 justify-between leading-[100%] ${className}`}
+        px-2 justify-between leading-[100%]"
       >
         <input
           required
