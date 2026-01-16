@@ -42,7 +42,7 @@ export const couples: Couple[] = [
     id: 3,
     name: "Liam & Noor",
     location: "Toronto, Canada",
-    mainImage: "/images/couple 8.png",
+    mainImage: "/images/couple 8.PNG",
     thumbnails: [
       "/images/couple 6.PNG",
       "/images/couple 7.PNG",
@@ -56,7 +56,7 @@ export const couples: Couple[] = [
     id: 4,
     name: "Andre & Sofia",
     location: "Lisbon, Portugal",
-    mainImage: "/images/couple 9.png",
+    mainImage: "/images/couple 9.PNG",
     thumbnails: [
       "/images/couple 6.PNG",
       "/images/couple 7.PNG",
