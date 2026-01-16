@@ -12,7 +12,7 @@ export default function SignUp() {
   const [show, setShow] = useState(false);
   return (
     <section>
-      <div className="grid lg:grid-cols-2 merriWeather bg-white h-full">
+      <div className="grid lg:grid-cols-2 merriWeather bg-white h-screen">
         <div className="signUp-bg hidden lg:flex"></div>
         <div className="md:p-10 px-4 leading-[100%]">
           {/* logo */}

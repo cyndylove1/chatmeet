@@ -94,7 +94,7 @@ export default function CoupleStories() {
             {/* LEFT ARROW */}
             <button
               onClick={prevCouple}
-              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-white transition"
+              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow hover:bg-white transition text-black"
               aria-label="Previous couple"
             >
               <ChevronLeft size={20} />
@@ -103,7 +103,7 @@ export default function CoupleStories() {
             {/* RIGHT ARROW */}
             <button
               onClick={nextCouple}
-              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-white transition"
+              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow hover:bg-white transition text-black"
               aria-label="Next couple"
             >
               <ChevronRight size={20} />
